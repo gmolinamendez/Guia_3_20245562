@@ -1,0 +1,60 @@
+/* para que el A este arriba*/
+
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#diez_de_diamantes, #sota_de_diamantes, #reina_de_diamantes, #rey_de_diamantes, #as_de_diamantes {
+    position: absolute;
+    width: 100px;
+    height: 140px;
+}
+
+#diez_de_diamantes {
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+#sota_de_diamantes {
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+}
+
+#reina_de_diamantes {
+    top: 60px;
+    left: 60px;
+    z-index: 3;
+}
+
+#rey_de_diamantes {
+    top: 80px;
+    left: 80px;
+    z-index: 4;
+}
+
+#as_de_diamantes {
+    top: 100px;
+    left: 100px;
+    z-index: 5;
+}
+
+/* Estilos para las imágenes */
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
